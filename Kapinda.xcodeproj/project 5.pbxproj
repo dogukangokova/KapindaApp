@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0974950428DB840600CD52BF /* KapindaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974950328DB840600CD52BF /* KapindaApp.swift */; };
+		0974950628DB840600CD52BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974950528DB840600CD52BF /* ContentView.swift */; };
+		0974950828DB840E00CD52BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974950728DB840E00CD52BF /* Assets.xcassets */; };
+		0974950B28DB840E00CD52BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974950A28DB840E00CD52BF /* Preview Assets.xcassets */; };
+		0974951528DB840F00CD52BF /* KapindaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974951428DB840F00CD52BF /* KapindaTests.swift */; };
+		0974951F28DB840F00CD52BF /* KapindaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974951E28DB840F00CD52BF /* KapindaUITests.swift */; };
+		0974952128DB840F00CD52BF /* KapindaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0974952028DB840F00CD52BF /* KapindaUITestsLaunchTests.swift */; };
+		09A7E60828DC6C07008DDC2F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7E60728DC6C07008DDC2F /* Login.swift */; };
+		09A7E60A28DC6D3B008DDC2F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7E60928DC6D3B008DDC2F /* SignUp.swift */; };
+		09A7E60C28DC709C008DDC2F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7E60B28DC709C008DDC2F /* Home.swift */; };
+		09B18B8728DC869500862DF6 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B18B8628DC869500862DF6 /* BaseViewModel.swift */; };
+		09B18B8928DC876700862DF6 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B18B8828DC876700862DF6 /* BaseView.swift */; };
+		09B18B8B28DCA18400862DF6 /* CustomCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B18B8A28DCA18400862DF6 /* CustomCurveShape.swift */; };
+		09B18B8E28DCB15800862DF6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B18B8D28DCB15800862DF6 /* Product.swift */; };
+		09B18B9028DCBF6400862DF6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B18B8F28DCBF6400862DF6 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0974951128DB840F00CD52BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097494F828DB840500CD52BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097494FF28DB840600CD52BF;
+			remoteInfo = Kapinda;
+		};
+		0974951B28DB840F00CD52BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097494F828DB840500CD52BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097494FF28DB840600CD52BF;
+			remoteInfo = Kapinda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0974950028DB840600CD52BF /* Kapinda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kapinda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974950328DB840600CD52BF /* KapindaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapindaApp.swift; sourceTree = "<group>"; };
+		0974950528DB840600CD52BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0974950728DB840E00CD52BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0974950A28DB840E00CD52BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0974951028DB840F00CD52BF /* KapindaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KapindaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974951428DB840F00CD52BF /* KapindaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapindaTests.swift; sourceTree = "<group>"; };
+		0974951A28DB840F00CD52BF /* KapindaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KapindaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0974951E28DB840F00CD52BF /* KapindaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapindaUITests.swift; sourceTree = "<group>"; };
+		0974952028DB840F00CD52BF /* KapindaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapindaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09A7E60728DC6C07008DDC2F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		09A7E60928DC6D3B008DDC2F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		09A7E60B28DC709C008DDC2F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		09B18B8628DC869500862DF6 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		09B18B8828DC876700862DF6 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		09B18B8A28DCA18400862DF6 /* CustomCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveShape.swift; sourceTree = "<group>"; };
+		09B18B8D28DCB15800862DF6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../../../../../Product.swift; sourceTree = "<group>"; };
+		09B18B8F28DCBF6400862DF6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097494FD28DB840600CD52BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974950D28DB840F00CD52BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974951728DB840F00CD52BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097494F728DB840500CD52BF = {
+			isa = PBXGroup;
+			children = (
+				0974950228DB840600CD52BF /* Kapinda */,
+				0974951328DB840F00CD52BF /* KapindaTests */,
+				0974951D28DB840F00CD52BF /* KapindaUITests */,
+				0974950128DB840600CD52BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0974950128DB840600CD52BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0974950028DB840600CD52BF /* Kapinda.app */,
+				0974951028DB840F00CD52BF /* KapindaTests.xctest */,
+				0974951A28DB840F00CD52BF /* KapindaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0974950228DB840600CD52BF /* Kapinda */ = {
+			isa = PBXGroup;
+			children = (
+				09B18B8C28DCB14100862DF6 /* Model */,
+				09B18B8528DC865A00862DF6 /* ViewModel */,
+				09A7E60628DC6B61008DDC2F /* View */,
+				0974950328DB840600CD52BF /* KapindaApp.swift */,
+				0974950528DB840600CD52BF /* ContentView.swift */,
+				0974950728DB840E00CD52BF /* Assets.xcassets */,
+				0974950928DB840E00CD52BF /* Preview Content */,
+			);
+			path = Kapinda;
+			sourceTree = "<group>";
+		};
+		0974950928DB840E00CD52BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0974950A28DB840E00CD52BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0974951328DB840F00CD52BF /* KapindaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0974951428DB840F00CD52BF /* KapindaTests.swift */,
+			);
+			path = KapindaTests;
+			sourceTree = "<group>";
+		};
+		0974951D28DB840F00CD52BF /* KapindaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0974951E28DB840F00CD52BF /* KapindaUITests.swift */,
+				0974952028DB840F00CD52BF /* KapindaUITestsLaunchTests.swift */,
+			);
+			path = KapindaUITests;
+			sourceTree = "<group>";
+		};
+		09A7E60628DC6B61008DDC2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09A7E60728DC6C07008DDC2F /* Login.swift */,
+				09A7E60928DC6D3B008DDC2F /* SignUp.swift */,
+				09A7E60B28DC709C008DDC2F /* Home.swift */,
+				09B18B8828DC876700862DF6 /* BaseView.swift */,
+				09B18B8A28DCA18400862DF6 /* CustomCurveShape.swift */,
+				09B18B8F28DCBF6400862DF6 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09B18B8528DC865A00862DF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09B18B8628DC869500862DF6 /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09B18B8C28DCB14100862DF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B18B8D28DCB15800862DF6 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097494FF28DB840600CD52BF /* Kapinda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0974952428DB840F00CD52BF /* Build configuration list for PBXNativeTarget "Kapinda" */;
+			buildPhases = (
+				097494FC28DB840600CD52BF /* Sources */,
+				097494FD28DB840600CD52BF /* Frameworks */,
+				097494FE28DB840600CD52BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kapinda;
+			productName = Kapinda;
+			productReference = 0974950028DB840600CD52BF /* Kapinda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0974950F28DB840F00CD52BF /* KapindaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0974952728DB840F00CD52BF /* Build configuration list for PBXNativeTarget "KapindaTests" */;
+			buildPhases = (
+				0974950C28DB840F00CD52BF /* Sources */,
+				0974950D28DB840F00CD52BF /* Frameworks */,
+				0974950E28DB840F00CD52BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0974951228DB840F00CD52BF /* PBXTargetDependency */,
+			);
+			name = KapindaTests;
+			productName = KapindaTests;
+			productReference = 0974951028DB840F00CD52BF /* KapindaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0974951928DB840F00CD52BF /* KapindaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0974952A28DB840F00CD52BF /* Build configuration list for PBXNativeTarget "KapindaUITests" */;
+			buildPhases = (
+				0974951628DB840F00CD52BF /* Sources */,
+				0974951728DB840F00CD52BF /* Frameworks */,
+				0974951828DB840F00CD52BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0974951C28DB840F00CD52BF /* PBXTargetDependency */,
+			);
+			name = KapindaUITests;
+			productName = KapindaUITests;
+			productReference = 0974951A28DB840F00CD52BF /* KapindaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097494F828DB840500CD52BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					097494FF28DB840600CD52BF = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					0974950F28DB840F00CD52BF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 097494FF28DB840600CD52BF;
+					};
+					0974951928DB840F00CD52BF = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 097494FF28DB840600CD52BF;
+					};
+				};
+			};
+			buildConfigurationList = 097494FB28DB840500CD52BF /* Build configuration list for PBXProject "Kapinda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097494F728DB840500CD52BF;
+			productRefGroup = 0974950128DB840600CD52BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097494FF28DB840600CD52BF /* Kapinda */,
+				0974950F28DB840F00CD52BF /* KapindaTests */,
+				0974951928DB840F00CD52BF /* KapindaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097494FE28DB840600CD52BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0974950B28DB840E00CD52BF /* Preview Assets.xcassets in Resources */,
+				0974950828DB840E00CD52BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974950E28DB840F00CD52BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974951828DB840F00CD52BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097494FC28DB840600CD52BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A7E60828DC6C07008DDC2F /* Login.swift in Sources */,
+				09A7E60A28DC6D3B008DDC2F /* SignUp.swift in Sources */,
+				09B18B8E28DCB15800862DF6 /* Product.swift in Sources */,
+				09B18B9028DCBF6400862DF6 /* DetailView.swift in Sources */,
+				09B18B8B28DCA18400862DF6 /* CustomCurveShape.swift in Sources */,
+				09A7E60C28DC709C008DDC2F /* Home.swift in Sources */,
+				0974950628DB840600CD52BF /* ContentView.swift in Sources */,
+				09B18B8928DC876700862DF6 /* BaseView.swift in Sources */,
+				0974950428DB840600CD52BF /* KapindaApp.swift in Sources */,
+				09B18B8728DC869500862DF6 /* BaseViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974950C28DB840F00CD52BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0974951528DB840F00CD52BF /* KapindaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0974951628DB840F00CD52BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0974951F28DB840F00CD52BF /* KapindaUITests.swift in Sources */,
+				0974952128DB840F00CD52BF /* KapindaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0974951228DB840F00CD52BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097494FF28DB840600CD52BF /* Kapinda */;
+			targetProxy = 0974951128DB840F00CD52BF /* PBXContainerItemProxy */;
+		};
+		0974951C28DB840F00CD52BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097494FF28DB840600CD52BF /* Kapinda */;
+			targetProxy = 0974951B28DB840F00CD52BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0974952228DB840F00CD52BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0974952328DB840F00CD52BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0974952528DB840F00CD52BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kapinda/Preview Content\"";
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogukangokova.Kapinda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0974952628DB840F00CD52BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kapinda/Preview Content\"";
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dogukangokova.Kapinda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0974952828DB840F00CD52BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinely.KapindaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapinda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kapinda";
+			};
+			name = Debug;
+		};
+		0974952928DB840F00CD52BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinely.KapindaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapinda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kapinda";
+			};
+			name = Release;
+		};
+		0974952B28DB840F00CD52BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinely.KapindaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kapinda;
+			};
+			name = Debug;
+		};
+		0974952C28DB840F00CD52BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8F6LM9XUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devinely.KapindaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kapinda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097494FB28DB840500CD52BF /* Build configuration list for PBXProject "Kapinda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0974952228DB840F00CD52BF /* Debug */,
+				0974952328DB840F00CD52BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0974952428DB840F00CD52BF /* Build configuration list for PBXNativeTarget "Kapinda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0974952528DB840F00CD52BF /* Debug */,
+				0974952628DB840F00CD52BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0974952728DB840F00CD52BF /* Build configuration list for PBXNativeTarget "KapindaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0974952828DB840F00CD52BF /* Debug */,
+				0974952928DB840F00CD52BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0974952A28DB840F00CD52BF /* Build configuration list for PBXNativeTarget "KapindaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0974952B28DB840F00CD52BF /* Debug */,
+				0974952C28DB840F00CD52BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 097494F828DB840500CD52BF /* Project object */;
+}
+                    
